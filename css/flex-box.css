@@ -1,3 +1,4 @@
 .cabecalhoPrincipal-titulo,.cabecalhoPrincipal-nav {
     display: inline-block;
+    vertical-align: middle;
 }
