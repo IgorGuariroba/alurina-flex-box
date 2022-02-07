@@ -1,4 +1,29 @@
-.cabecalhoPrincipal-titulo,.cabecalhoPrincipal-nav {
-    display: inline-block;
-    vertical-align: middle;
+/*.cabecalhoPrincipal-titulo, .cabecalhoPrincipal-nav {*/
+
+/*    !*alinhar ao lado *!*/
+/*    display: inline-block;*/
+
+/*    !*alinha verticalmente o centro*!*/
+/*    vertical-align: middle;*/
+/*    */
+/*    !*alinha a direita*!*/
+/*    margin-left: 600px;*/
+/*}*/
+
+/*no pai do objjeto definimos o flex*/
+/*selecionar o container que está dentro do cabeçalo principal*/
+.cabecalhoPrincipal .container {
+
+    /*deixa o objeto um ao lado do outro*/
+    display: flex;
+
+    /*aalinhar os elementos ao centro do objeto*/
+    align-items: center;
+
+    /*pegar todo espaço restante e deixar entre os elementos*/
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex;
 }
